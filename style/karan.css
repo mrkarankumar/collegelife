@@ -1,0 +1,1206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+body {
+
+  color: #ffffff;
+
+}
+
+.karan {
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10%;
+  background: #051129;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+
+}
+
+.logo {
+  position: relative;
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  background-color: #93650a;
+
+  border-radius: 8px 0px 8px 0px;
+  padding: 8px;
+}
+
+.logo:hover {
+  background: #cd082c;
+
+}
+
+.karan1 a {
+
+  display: inline-block;
+  font-size: 25px;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 35px;
+  font-weight: 500;
+  transition: .3s;
+
+}
+
+.karan1 a:hover {
+  background-color: #3c00ff;
+  border: 1px black;
+
+  border-radius: 5px 0px 5px 0px;
+  color: cyan;
+
+}
+
+.home {
+position: fixed;
+  position: relative;
+  width: 100%;
+  justify-content: space-between;
+  height: 100vh;
+  background: url(karan.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: rgb(233, 242, 236);
+  display: flex;
+  align-items: center;
+  padding: 70px 10% 0;
+
+}
+
+.rohit a {
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  color: cyan;
+  border: 2px solid cyan;
+  border-radius: 50%;
+  text-decoration: none;
+  margin: 30px 15px 30px 0;
+}
+
+.rohit a:hover {
+  background-color: cyan;
+  color: black;
+  box-shadow: 0 0 20px cyan;
+
+}
+
+.ram2 {
+
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: cyan;
+  border-radius: 40px;
+  font-size: 16px;
+  color: black;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 600;
+
+}
+
+.ram2:hover {
+  box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan;
+
+}
+
+.home-karan11 {
+  width: 205px;
+  height: 205px;
+  border: 3px solid rgb(47, 0, 255);
+  border-radius: 50%;
+
+  background-image: url(linked.jpg);
+  margin-left: 678px;
+  box-shadow: 0 0 100px cyan;
+  background-size: cover;
+  margin-top: -190px;
+  margin-left: 800px;
+}
+
+.home-karan11:hover {
+  background-color: cyan;
+  box-shadow: 0 0 100px cyan,
+    0 0 25px blueviolet, 0 0 50px rgb(224, 199, 36),
+    0 0 100px rgb(202, 135, 48), 0 0 200px crimson;
+
+
+}
+
+.home-karan22 {
+  width: 217px;
+  height: 217px;
+  margin-left: -9px;
+  margin-top: -9px;
+  border-radius: 50%;
+  /* box-shadow:  0 0 100px cyan; */
+  box-shadow: 0 0 50px cyan,
+    0 0 25px rgb(12, 209, 235), 0 0 50px rgb(36, 211, 224),
+    0 0 100px rgb(48, 192, 202), 0 0 200px rgb(20, 183, 220);
+
+  border: 5px solid rgb(211, 210, 214);
+}
+
+.hi_text {
+  font-size: 6rem;
+  font-weight: bold;
+  color: cyan;
+}
+
+.name_text {
+
+  font-size: 3rem;
+  font-weight: bold;
+  color: rgb(244, 238, 240);
+
+}
+
+.home-content {
+
+  font-size: 1rem;
+}
+
+#hero {
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(204, 255, 0);
+
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  border-left: 0.15em solid rgb(0, 255, 72);
+  /* The typwriter cursor */
+  white-space: nowrap;
+  /* Keeps the content on a single line */
+  margin: 0 auto;
+  /* Gives that scrolling effect as the typing happens */
+  /* Adjust as needed */
+  animation: typing 5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+
+  from,
+  to {
+    border-color: transparent;
+  }
+
+  50% {
+    border-color: rgb(255, 0, 136);
+  }
+}
+
+.maa {
+  position: fixed;
+  position: relative;
+  width: 100%;
+  justify-content: space-between;
+  height: 100vh;
+  background: url(karan.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: rgb(233, 242, 236);
+  display: flex;
+  align-items: center;
+  padding: 70px 10% 0;
+
+}
+
+.maa12 {
+  width: 205px;
+  height: 205px;
+  border: 3px solid rgb(47, 0, 255);
+  border-radius: 50%;
+  margin-left: 678px;
+  box-shadow: 0 0 100px cyan;
+  background-size: cover;
+  margin-top: -339px;
+  margin-left: -2px;
+
+
+}
+
+.maa13 {
+  width: 200px;
+  background-image: url(abhi.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: -208px;
+
+}
+
+.maa14 {
+  width: 217px;
+  height: 217px;
+  margin-left: -9px;
+  margin-top: -9px;
+  border-radius: 50%;
+  box-shadow: 0 0 50px rgb(255, 0, 149),
+    0 0 25px rgb(235, 12, 142), 0 0 50px rgb(49, 36, 224),
+    0 0 100px rgb(48, 192, 202), 0 0 200px rgb(210, 20, 220);
+
+  border: 5px solid rgb(211, 210, 214);
+}
+
+.maa12:hover {
+  background-color: cyan;
+  box-shadow: 0 0 100px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan;
+}
+
+.anjali {
+  color: white;
+  width: 400px;
+  height: 300px;
+  margin-top: -287px;
+
+}
+
+.anjali11 {
+  color: cyan;
+
+}
+
+.tota {
+  font-weight: 600;
+  font-size: 40px;
+
+
+}
+
+.tota12 {
+
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: cyan;
+  border-radius: 40px;
+  font-size: 16px;
+  color: black;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 600;
+
+}
+
+.tota12:hover {
+  box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan;
+
+}
+
+.tota15 {
+  margin-top: 55px;
+  margin-left: 30px;
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: rgb(255, 0, 72);
+  border-radius: 15px 0 15px 0;
+  font-size: 16px;
+  color: black;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 600;
+
+}
+
+.tota15:hover {
+  box-shadow: 0 0 5px rgb(255, 0, 119),
+    0 0 25px rgb(255, 0, 93), 0 0 50px rgb(255, 0, 102),
+    0 0 100px rgb(255, 0, 153), 0 0 200px rgb(255, 0, 102);
+
+}
+
+.i {
+
+  color: #fff;
+  margin-top: 55px;
+  margin-left: 50px;
+}
+
+.raja {
+  position: fixed;
+  position: relative;
+  width: 100%;
+  justify-content: space-between;
+  height: 100vh;
+  background: url(karan.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: rgb(233, 242, 236);
+  display: flex;
+  align-items: center;
+  padding: 70px 10% 0;
+
+}
+
+.raja1 {
+  margin-top: -813px;
+  margin-left: 440px;
+}
+
+.raja2 {
+
+  color: cyan;
+  font-size: 35px;
+
+}
+
+.myname {
+  margin-top: 427px;
+  margin-left: -71px;
+  position: absolute;
+  font-size: 40px;
+
+}
+
+.mohan {
+  background-color: #051129;
+  height: 361px;
+  width: 289px;
+  border: 2px solid cyan;
+  border-radius: 30px 0 30px 0;
+  margin-left: -437px;
+  margin-top: 519px;
+}
+
+.mohan:hover {
+  box-shadow: 0 0 50px cyan;
+
+}
+
+.mohan1 {
+  background-color: #051129;
+  height: 361px;
+  width: 289px;
+  border: 2px solid rgb(255, 0, 149);
+  border-radius: 30px 0 30px 0;
+  margin-left: 348px;
+  margin-top: -106px;
+}
+
+.mohan1:hover {
+  box-shadow: 0 0 50px rgb(255, 0, 76);
+}
+
+.mohan2 {
+  background-color: #051129;
+  height: 361px;
+  width: 289px;
+  border: 2px solid rgb(255, 234, 0);
+  border-radius: 30px 0 30px 0;
+  margin-left: 348px;
+  margin-top: -106px;
+}
+
+.mohan2:hover {
+  box-shadow: 0 0 50px cyan;
+}
+
+.ic {
+  margin-left: -200px;
+  text-align: center;
+  margin-top: -314px;
+  font-size: 61px;
+  color: silver;
+  position: relative;
+}
+
+.ic1 {
+  margin-left: -200px;
+  text-align: center;
+  margin-top: -316px;
+  padding-top: 2px;
+  font-size: 61px;
+  color: cyan;
+
+
+}
+
+.ic2 {
+  margin-left: -200px;
+  text-align: center;
+  margin-top: -316px;
+  padding-top: 2px;
+  font-size: 61px;
+  color: cyan;
+
+}
+
+.amazon {
+  margin-left: 43px;
+  margin-top: 127px;
+  position: absolute;
+  color: cyan;
+}
+
+.lorem {
+  margin-top: 186px;
+  margin-left: 24px;
+
+}
+
+.maina15 {
+  margin-top: 55px;
+  margin-left: 63px;
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: rgb(255, 0, 72);
+  border-radius: 15px 0 15px 0;
+  font-size: 16px;
+  color: black;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 600;
+
+}
+
+
+.maina15:hover {
+
+  box-shadow: 0 0 70px rgb(255, 0, 72);
+
+}
+
+.progesh {
+  position: fixed;
+  position: relative;
+  width: 100%;
+  justify-content: space-between;
+  height: 100vh;
+  background: url(karan.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: rgb(233, 242, 236);
+  display: flex;
+  align-items: center;
+  padding: 70px 10% 0;
+
+}
+
+.skill {
+
+  margin-top: 30px;
+  margin-top: -691px;
+  color: gold;
+
+}
+
+.skill3 {
+  color: cyan;
+
+}
+
+.technical-bar {
+  margin-top: 80px;
+
+}
+
+.bar {
+  font-size: 40px;
+
+}
+
+.id {
+  font-size: 22px;
+  color: aqua;
+  position: absolute;
+  margin-top: -37px;
+  margin-left: 65px;
+}
+
+.bar {
+  border: 2px solid cyan;
+  height: 60px;
+  width: 60px;
+  color: rgb(255, 0, 204);
+  background-color: black;
+  padding-left: 9px;
+  padding-top: 5px;
+  margin: 8px;
+  border-radius: 50%;
+}
+
+.bar:hover {
+  background-color: cyan;
+  color: black;
+  box-shadow: 0 0 20px cyan;
+
+}
+
+.info {
+  width: 1207%;
+  height: 14px;
+  margin-left: 71px;
+  border: 2px solid cyan;
+  margin-top: -29px;
+  background-color: cyan;
+  border-radius: 9px;
+}
+
+.info1 {
+  width: 1000%;
+  height: 14px;
+  margin-left: 71px;
+  border: 2px solid cyan;
+  margin-top: -29px;
+  background-color: cyan;
+  border-radius: 9px;
+}
+
+.info2 {
+  width: 800%;
+  height: 14px;
+  margin-left: 71px;
+  border: 2px solid cyan;
+  margin-top: -29px;
+  background-color: cyan;
+  border-radius: 9px;
+}
+
+.pawan {
+position: fixed;
+  position: relative;
+  width: 100%;
+  justify-content: space-between;
+  height: 100vh;
+  background: url(karan.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: rgb(233, 242, 236);
+  display: flex;
+  align-items: center;
+  padding: 70px 10% 0;
+
+}
+
+.pawan1 {
+  margin-top: -1438px;
+  margin-left: 14px;
+  font-size: 35px;
+  color: gold;
+  position: absolute;
+}
+
+.pawan2 {
+
+  margin-top: -1250px;
+  margin-left: 420px;
+  font-size: 50px;
+  color: cyan;
+
+}
+
+.pawan3 {
+
+  color: #a6901a;
+
+}
+
+.ramu {
+
+  margin-top: 1133px;
+  position: absolute;
+  margin-left: -400px;
+}
+
+.pawan4 {
+
+  color: #fff;
+
+}
+
+.ankit {
+
+  background-color: #030928;
+  width: 300px;
+  height: 340px;
+  margin-top: -816px;
+  border-radius: 40px 0 40px 0;
+  box-shadow: inset 5px 5px 8px rgb(0, 15, 53), inset -5px -5px 8px rgb(29, 64, 168);
+  transition-property: width, height;
+  transition-duration: 1s;
+}
+
+.ankit:hover {
+
+  /* background-color: #cd082c; */
+  width: 330px;
+  height: 370px;
+
+}
+
+
+.img {
+  width: 210px;
+  height: 169px;
+  border-radius: 50%;
+  margin-left: 40px;
+  margin-top: 40px
+}
+
+.ankit2 {
+  display: inline-block;
+  padding: 23px 28px;
+  background: linear-gradient(145deg, rgb(7, 48, 169) 1%, rgb(1, 27, 103), rgb(1, 15, 58));
+  box-shadow: 6px 6px 8px #0b0b0b, -6px -6px 10px #323232, inset 7px 7px 10px #000420, inset -7px -7px 10px #172f7e;
+  border-radius: 30px 0 30px 0;
+  font-size: 16px;
+  color: white;
+  letter-spacing: 1px;
+  text-decoration: none;
+  margin-top: 18px;
+  font-weight: 600;
+  margin-left: 39px;
+  /* position: absolute; */
+
+}
+
+.ankit2:hover {
+  box-shadow: 0 0 50px cyan;
+
+}
+
+.yas {
+
+  width: 300px;
+  height: 340px;
+  margin-top: -298px;
+  border-radius: 40px 0 40px 0;
+  box-shadow: inset 5px 5px 8px rgb(51, 51, 53), inset -5px -5px 8px rgb(59, 59, 60);
+  transition-property: width, height;
+  transition-duration: 1s;
+  margin-left: 341px;
+
+}
+
+.yas:hover {
+
+  width: 330px;
+  height: 370px;
+
+}
+
+.img1 {
+  width: 210px;
+  height: 169px;
+  border-radius: 50%;
+  margin-left: 40px;
+  margin-top: 40px
+}
+
+.ankit22 {
+  display: inline-block;
+  padding: 23px 28px;
+  background: linear-gradient(145deg, rgb(7, 48, 169) 1%, rgb(1, 27, 103), rgb(1, 15, 58));
+  box-shadow: 6px 6px 8px #0b0b0b, -6px -6px 10px #323232, inset 7px 7px 10px #000420, inset -7px -7px 10px #172f7e;
+  border-radius: 30px 0 30px 0;
+  font-size: 15px;
+  color: white;
+  letter-spacing: 1px;
+  text-decoration: none;
+  margin-top: 18px;
+  font-weight: 600;
+  margin-left: 26px;
+
+}
+
+.ankit22:hover {
+  box-shadow: 0 0 50px rgb(125, 115, 115);
+
+}
+
+.anu {
+
+  background-color: #0c151a;
+  width: 300px;
+  height: 340px;
+  margin-top: -298px;
+  border-radius: 40px 0 40px 0;
+  box-shadow: inset 5px 5px 8px rgb(0, 15, 53), inset -5px -5px 8px rgb(29, 64, 168);
+  transition-property: width, height;
+  transition-duration: 1s;
+  margin-left: 341px;
+
+}
+
+.anu:hover {
+
+  width: 330px;
+  height: 370px;
+
+}
+
+.img2 {
+  width: 210px;
+  height: 169px;
+  border-radius: 50%;
+  margin-left: 40px;
+  margin-top: 40px
+}
+
+.ankit222 {
+  display: inline-block;
+  padding: 23px 28px;
+  background: linear-gradient(145deg, rgb(7, 48, 169) 1%, rgb(1, 27, 103), rgb(1, 15, 58));
+  box-shadow: 6px 6px 8px #0b0b0b, -6px -6px 10px #323232, inset 7px 7px 10px #000420, inset -7px -7px 10px #172f7e;
+  border-radius: 30px 0 30px 0;
+  font-size: 16px;
+  color: white;
+  letter-spacing: 1px;
+  text-decoration: none;
+  margin-top: 18px;
+  font-weight: 600;
+  margin-left: 39px;
+
+}
+
+.ankit222:hover {
+
+  box-shadow: 0 0 50px rgb(13, 216, 216);
+
+}
+
+.mamta {
+position: fixed;
+  position: relative;
+  width: 100%;
+  justify-content: space-between;
+  height: 100vh;
+  background: url(karan.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: rgb(233, 242, 236);
+  display: flex;
+  align-items: center;
+  padding: 70px 10% 0;
+
+}
+
+.mamta1 {
+
+  margin-top: -250px;
+  font-size: 50px;
+  color: cyan;
+
+}
+
+.mamta2 {
+
+  color: #a6901a;
+
+}
+
+.mamtaa {
+  margin-top: -800px;
+
+}
+
+.ankit2222 {
+
+  border-radius: 30px 0 30px 0;
+  letter-spacing: 1px;
+  text-align: center;
+  display: inline-block;
+  padding: 12px 28px;
+  font-size: 16px;
+  color: rgb(227, 219, 219);
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 0px 20px 0px 20px;
+  border: 1px solid rgba(15, 0, 81, 0.152);
+  z-index: 124353543;
+  background: linear-gradient(145deg, rgb(7, 48, 169) 1%, rgb(1, 27, 103), rgb(1, 15, 58));
+  box-shadow: 6px 6px 8px #0b0b0b, -6px -6px 10px #323232, inset 7px 7px 10px #000420, inset -7px -7px 10px #172f7e;
+  transition: all 0.2s;
+  transition-duration: 0.5s
+}
+
+
+.ankit2222:hover {
+  box-shadow: 0 0 5px rgb(131, 134, 134);
+
+}
+
+.nnnn a {
+  font-size: 20px;
+  height: 70px;
+  width: 240px;
+  margin-left: 4px;
+  padding-top: 25px;
+  color: #cd082c;
+}
+
+.ttt {
+
+  color: #ffffff;
+
+}
+
+.sun {
+  position: fixed;
+  position: relative;
+  width: 100%;
+  justify-content: space-between;
+  height: 100vh;
+  background: url(karan.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: rgb(233, 242, 236);
+  display: flex;
+  align-items: center;
+  padding: 70px 10% 0;
+}
+
+
+.mamta19 {
+
+  margin-top: -1480px;
+  margin-left: 5px;
+  font-size: 50px;
+  color: cyan;
+
+}
+
+.mamta23 {
+
+  color: #ffffff;
+
+}
+/* .anuja{
+ ackground-color: blue;
+} */
+.anuj{
+
+  display: flex;
+  width: calc(250px * 18);
+  animation: scroll 50s linear infinite;
+
+
+}
+
+
+
+/* .anuj {
+  /* overflow: hidden; */
+  /* width: 800px;
+  height: 100px;
+  position: absolute;
+  margin-left: -393px;
+  margin-top: 440px;
+  animation-name: karan;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+  animation-timing-function: linear;
+  */
+
+
+
+
+.img13:hover {
+
+  box-shadow: 0 0 5px cyan;
+  height: 90px;
+  width: 185px;
+
+
+}
+
+.img14:hover {
+
+  box-shadow: 0 0 5px cyan;
+  height: 90px;
+  width: 185px;
+
+}
+
+.img15:hover {
+
+  box-shadow: 0 0 5px cyan;
+  height: 90px;
+  width: 185px;
+
+
+}
+
+.img16:hover {
+
+  box-shadow: 0 0 5px cyan;
+  height: 90px;
+  width: 185px;
+
+
+}
+
+.img17:hover {
+
+  box-shadow: 0 0 5px cyan;
+  height: 90px;
+  width: 185px;
+
+
+}
+
+.img18:hover {
+
+  box-shadow: 0 0 5px cyan;
+
+  height: 90px;
+  width: 185px;
+
+}
+
+.anuj{
+
+  display: flex;
+  justify-content: center;
+  height: 92px;
+  /* margin-left: -534px; */
+  width: 832px;
+  padding-left: -65px;
+  margin-top: -1222px;
+  /* position: absolute; */
+  right: 142px;
+  position: relative; */
+ 
+   animation-name:karan;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+  animation-timing-function: linear;
+}
+ 
+@keyframes karan{
+  from { 
+  
+top: 0;
+left: 0;
+}
+
+to{
+top: 0;
+right: 1000px;
+}
+}
+
+
+
+
+
+
+
+
+.img13 {
+
+  /* margin-top: 20px; */
+  /* margin-top: 20px; */
+  height: 250px;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  padding: 35px;
+  perspective: 100px;
+}
+
+.img13 {
+  height: 250px;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  padding: 35px;
+  perspective: 100px;
+}
+
+.img13 {
+
+  height: 250px;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  padding: 35px;
+  perspective: 100px;
+}
+
+.img13 {
+
+  height: 250px;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  padding: 35px;
+  perspective: 100px;
+}
+
+.img13 {
+
+  height: 250px;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  padding: 35px;
+  perspective: 100px;
+}
+
+.img18 {
+
+  margin-top: -783px;
+  position: absolute;
+  height: 75px;
+  margin-left: 900px;
+  width: 180px;
+  transition: all 0.2s;
+  transition-duration: 0.5s
+}
+
+.sus{
+  color: rgb(138 21 222 / 93%);
+  font-size: 35px;
+  margin-bottom: 690px;
+  position: absolute;
+}
+
+.susma{
+color: cyan;
+  
+}
+
+.susma1{
+color: #fe9611;
+margin-left: 10px;
+
+}
+
+.susma2{
+
+color: #ffffff;
+
+
+}
+
+
+.rocky{
+
+color: #b8cd1b!important;
+font-size: 27px;
+display: contents;
+}
+
+
+
+
+.oo{
+
+  height: 135px;
+  width: 660px;
+}
+
+
+
+.rocky1{
+
+  color: #ffffff;
+  font-size: 17px;
+    font-weight: 400;
+    display: contents;
+
+}
+.img88{
+  height: 400px;
+  width: 400px;
+  margin-left: 653px;
+  margin-top: -256px;
+  border-radius: 50%;
+  transition-property: width, height;
+  transition-duration: 1s;
+}
+
+.img88:hover{
+  height: 470px;
+  width: 470px;
+  border-radius: 50%;
+
+
+}
+
+
+.rocky2{
+
+position: absolute;
+  font-size: 40px;
+  margin-top: -128px;
+  color: #fe9611;}
+
+.adit{
+  color: #ffffff;
+  margin-left: 30px;
+  font-size: 20px;
+  margin-top: -59px;
+  
+}
+.raman{
+
+  position: fixed;
+  position: relative;
+  width: 100%;
+  justify-content: space-between;
+  height: 100vh;
+  background: url(karan.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: rgb(233, 242, 236);
+  display: flex;
+  align-items: center;
+  padding: 70px 10% 0;
+
+}
+
+.dom{
+
+background-color: #3c00ff;
+
+height: 100px;
+width: 290px;
+
+}

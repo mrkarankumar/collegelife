@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.dbu {
+    width: 372px;
+    height: 475px;
+    background-color: white;
+    position: relative;
+    padding-left: 20px;
+    margin-left: 440px;
+    margin-top: 12px;
+    border-radius: 50px 0px 30px 0px;
+    border: 1px solid #d7dbdd;
+}
+
+.text {
+
+    font-size: 19px;
+    padding-top: 119px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #1987cb;
+    padding-left: 15px;
+
+
+
+}
+
+.dbu2 {
+    width: 33vw;
+    height: 10vh;
+
+
+}
+
+.rr {
+    text-decoration: none;
+}
+
+.rr:hover {
+    text-decoration: underline;
+}
+
+#karan {
+    width: 81%;
+    height: 10vh;
+    padding-left: 2vw;
+    border-radius: 1vh;
+    margin-top: 12px;
+}
+
+input:focus {
+
+    outline: none !important;
+    border: 1px solid blue;
+    box-shadow: 0 0 15px #719ece;
+
+}
+
+#kk {
+    width: 91%;
+    height: 10vh;
+    padding-left: 2vw;
+    margin-top: 17vh;
+    border-radius: 1vh;
+    position: absolute;
+    padding-top: -3px;
+    margin-left: -337px;
+}
+
+input:focus {
+
+    outline: none !important;
+    border: 1px solid blue;
+    box-shadow: 0 0 15px #719ece;
+
+}
+
+.simran {
+
+    outline: none;
+    border: none;
+    background: #06b909;
+    padding: 0.8rem 1rem;
+    border-radius: 40px 0px 40px 0px;
+    font-size: 1.1rem;
+    color: #fff;
+    width: 75%;
+    margin: 9 auto;
+    padding-left: 4vh;
+    position: relative;
+    left: 1vh;
+    right: 2vh;
+    margin-top: 21vh;
+    height: 8vh
+    
+}
+
+.kavita {
+
+    font-size: 19px;
+    padding-top: 119px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #1987cb;
+    padding-left: 15px;
+    margin-top: -89px;
+    padding-left: 52px;
+
+
+}
+
+
+
+.karan {
+    width: 73px;
+    height: 95px;
+    background-color: #055bb5;
+    
+    position: absolute;
+    margin-left: -21px;
+    padding-left: 372px;
+    margin-top: -201px;
+    border-radius: 3px;
+
+
+}
+
+.rambabu {
+
+    height: 70px;
+    width: 146px;
+    float: left;
+    position: relative;
+    margin-top: 11px;
+    margin-left: -259px;
+
+
+}
