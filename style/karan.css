@@ -990,27 +990,27 @@ position: fixed;
   width: 185px;
 
 }
-
-.anuj{
+/* 
+ .anuj{
 
   display: flex;
   justify-content: center;
   height: 92px;
-  /* margin-left: -534px; */
+   margin-left: -534px; 
   width: 832px;
   padding-left: -65px;
   margin-top: -1222px;
-  /* position: absolute; */
+  position: absolute; 
   right: 142px;
   position: relative; */
- 
-   animation-name:karan;
   animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-delay: 0s;
   animation-timing-function: linear;
-}
+
  
+}
+   */
 @keyframes karan{
   from { 
   

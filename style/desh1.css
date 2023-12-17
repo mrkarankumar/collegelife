@@ -1093,8 +1093,8 @@
   
   .img88 {
     height: 400px;
-    width: 400px;
-    margin-left: 653px;
+    width: 300px;
+    margin-left: 700px;
     margin-top: -256px;
     border-radius: 50%;
     transition-property: width, height;
@@ -1103,7 +1103,7 @@
   
   .img88:hover {
     height: 470px;
-    width: 470px;
+    width: 370px;
     border-radius: 50%;
   
   }
@@ -1391,9 +1391,8 @@
   
     display: inline-block;
     padding: 23px 28px;
-    background: linear-gradient(145deg, rgb(169 7 85) 1%, rgb(103 1 59), rgb(58 1 29));
+    background: linear-gradient(145deg, rgb(237, 210, 223) 1%, rgb(103 1 59), rgb(58 1 29));
     box-shadow: 6px 6px 8px #0b0b0b, -6px -6px 10px #323232, inset 7px 7px 10px #000420, inset -7px -7px 10px #7e1771;
-
     border-radius: 30px 0 30px 0;
     font-size: 10px;
     color: gold;
