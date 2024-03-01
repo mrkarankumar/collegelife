@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+  }
+  html{
+
+scroll-behavior: smooth;
+
+  }
+
+
+  body {
+  
+    color: #ffffff;
+  
+  }
+  
+  .karan {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 20px 10%;
+    background: #8f04c1;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  
+  }
+  
+  
+  .logo {
+    position: relative;
+    font-size: 25px;
+    color: white;
+    top: -12px;
+    margin-left: -30px;
+
+    text-decoration: none;
+    font-weight: 600;
+
+  
+    border-radius: 8px 0px 8px 0px;
+    padding: 8px;
+  }
+  
+  /* .logo:hover {
+    background: #cd082c;
+  
+  }
+   */
+  .karan1 a {
+  
+    display: inline-block;
+    font-size: 25px;
+    color: #fff;
+    margin-top: -20px;
+    position: relative;
+
+    text-decoration: none;
+    margin-left: 35px;
+    font-weight: 500;
+    transition: .3s;
+  
+  }
+  .fa a{
+
+margin-left: -245px;
+top: 14px;
+color: #fff;
+text-decoration: none;
+position: relative;
+
+
+  }
+  
+
+  .faa a{
+
+    margin-left: -382px;
+    top: 32px;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    
+    
+      }
+
+
+
+
+
+  .karan1 a:hover {
+    background-color: #3c00ff;
+    /* border: 1px black; */
+  
+    border-radius: 5px 0px 5px 0px;
+    color: cyan;
+  
+  }
+  
